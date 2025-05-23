@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - long_range
+  - med_range
+  - spot_on
+  - collision_zone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - NoFlyZone
+  - Water
+  - UI
+  - Interest collider
+  - Reaction collider
+  - Near collider
+  - Collision collider
+  - Collision control
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

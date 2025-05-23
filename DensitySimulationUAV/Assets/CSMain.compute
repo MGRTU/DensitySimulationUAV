@@ -1,0 +1,69 @@
+#pragma kernel CSMain
+
+// Sphere structure with position and radius
+struct Sphere
+{
+    float3 position;
+    float radius;
+};
+
+// Buffers
+RWStructuredBuffer<Sphere> sphereBuffer;
+RWStructuredBuffer<int> collisionCounts;
+RWStructuredBuffer<int> collisionPairs;
+
+// Parameters
+int sphereCount;
+int maxCollisionsPerSphere;
+
+[numthreads(64,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    // Skip if thread ID exceeds sphere count
+    if (id.x >= (uint)sphereCount)
+        return;
+    
+    // Get the current sphere
+    Sphere currentSphere = sphereBuffer[id.x];
+    
+    // Reset collision count for this sphere
+    collisionCounts[id.x] = 0;
+    
+    // Check for collisions with all other spheres
+    for (uint i = 0; i < (uint)sphereCount; i++)
+    {
+        // Skip self-collision
+        if (i == id.x)
+            continue;
+        
+        Sphere otherSphere = sphereBuffer[i];
+        
+        // Calculate distance between spheres
+        float3 diff = currentSphere.position - otherSphere.position;
+        float distSqr = dot(diff, diff);
+        
+        // Sum of radii
+        float radiusSum = currentSphere.radius + otherSphere.radius;
+        float radiusSumSqr = radiusSum * radiusSum;
+        
+        // Check for collision
+        if (distSqr <= radiusSumSqr)
+        {
+            // Get current collision count for this sphere
+            uint collisionIndex = collisionCounts[id.x];
+            
+            // Make sure we don't exceed the maximum collisions per sphere
+            if (collisionIndex < (uint)maxCollisionsPerSphere)
+            {
+                // Calculate the index in the collision pairs buffer
+                uint pairIndex = id.x * (uint)maxCollisionsPerSphere + collisionIndex;
+                
+                // Store the index of the colliding sphere
+                collisionPairs[pairIndex] = i;
+                
+                // Increment collision count
+                collisionCounts[id.x] = collisionIndex + 1;
+            }
+        }
+    }
+}

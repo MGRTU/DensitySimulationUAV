@@ -1,0 +1,64 @@
+{
+    "optionsArray": [
+        {
+            "RangeKM2": 30,
+            "collisionRangeKM2": 30,
+            "startDensity": 200,
+            "currentDensity": 0,
+            "endDensity": 200,
+            "step": 200,
+            "timeFrameMinutes": 6,
+            "testMode": 1,
+            "polygonBias": 0.0,
+            "polygons": [{"x":2000,"y":400,"z":2000},{"x":-1000,"y":800,"z":-2000},{"x":-1500,"y":1200,"z":2000},{"x":1500,"y":1600,"z":-1850},{"x":-1500,"y":2000,"z":900}],
+            "angleHeight": false,
+			"noFlyZones": false,
+            "flightLevelHeight": 0.1
+        },
+        {
+            "RangeKM2": 30,
+            "collisionRangeKM2": 30,
+            "startDensity": 200,
+            "currentDensity": 0,
+            "endDensity": 200,
+            "step": 200,
+            "timeFrameMinutes": 6,
+            "testMode": 0,
+            "polygonBias": 0.0,
+            "polygons": [{"x":2000,"y":400,"z":2000},{"x":-1000,"y":800,"z":-2000},{"x":-1500,"y":1200,"z":2000},{"x":1500,"y":1600,"z":-1850},{"x":-1500,"y":2000,"z":900}],
+            "angleHeight": false,
+			"noFlyZones": false,
+            "flightLevelHeight": 10
+        },
+        {
+            "RangeKM2": 30,
+            "collisionRangeKM2": 30,
+            "startDensity": 200,
+            "currentDensity": 0,
+            "endDensity": 200,
+            "step": 200,
+            "timeFrameMinutes": 6,
+            "testMode": 0,
+            "polygonBias": 0.0,
+            "polygons": [{"x":2000,"y":400,"z":2000},{"x":-1000,"y":800,"z":-2000},{"x":-1500,"y":1200,"z":2000},{"x":1500,"y":1600,"z":-1850},{"x":-1500,"y":2000,"z":900}],
+            "angleHeight": true,
+			"noFlyZones": false,
+            "flightLevelHeight": 1
+        },
+		{
+            "RangeKM2": 30,
+            "collisionRangeKM2": 30,
+            "startDensity": 200,
+            "currentDensity": 0,
+            "endDensity": 200,
+            "step": 200,
+            "timeFrameMinutes": 6,
+            "testMode": 0,
+            "polygonBias": 0.0,
+            "polygons": [{"x":2000,"y":400,"z":2000},{"x":-1000,"y":800,"z":-2000},{"x":-1500,"y":1200,"z":2000},{"x":1500,"y":1600,"z":-1850},{"x":-1500,"y":2000,"z":900}],
+            "angleHeight": true,
+			"noFlyZones": false,
+            "flightLevelHeight": 10
+        }
+    ]
+}

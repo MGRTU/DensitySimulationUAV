@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MG\\Desktop\\Drones_edition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20A6422B-CE0C-4807-DB81-8E8CFA2B440A}|Assembly-CSharp-Editor.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\editor\\sceneviewkeyboardinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A6422B-CE0C-4807-DB81-8E8CFA2B440A}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\sceneviewkeyboardinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\helpers\\uavcollisionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|solutionrelative:assets\\helpers\\uavcollisionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\testscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|solutionrelative:assets\\testscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\planner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|solutionrelative:assets\\planner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\dronespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|solutionrelative:assets\\dronespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|c:\\users\\mg\\desktop\\drones_edition\\assets\\densitytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{093D0074-FE5A-8CFA-1F7E-B2F00D1F6595}|Assembly-CSharp.csproj|solutionrelative:assets\\densitytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SceneViewKeyboardInput.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Editor\\SceneViewKeyboardInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\SceneViewKeyboardInput.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Editor\\SceneViewKeyboardInput.cs",
+              "RelativeToolTip": "Assets\\Editor\\SceneViewKeyboardInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:31:35.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UAVCollisionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Helpers\\UAVCollisionHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\Helpers\\UAVCollisionHelper.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Helpers\\UAVCollisionHelper.cs",
+              "RelativeToolTip": "Assets\\Helpers\\UAVCollisionHelper.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAAFgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:30:24.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestScheduler.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\TestScheduler.cs",
+              "RelativeDocumentMoniker": "Assets\\TestScheduler.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\TestScheduler.cs",
+              "RelativeToolTip": "Assets\\TestScheduler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFECAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:27:34.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Planner.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Planner.cs",
+              "RelativeDocumentMoniker": "Assets\\Planner.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\Planner.cs",
+              "RelativeToolTip": "Assets\\Planner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:23:26.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DroneSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\DroneSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\DroneSpawner.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\DroneSpawner.cs",
+              "RelativeToolTip": "Assets\\DroneSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:20:22.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DensityTracker.cs",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\DensityTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\DensityTracker.cs",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Drones_edition\\Assets\\DensityTracker.cs",
+              "RelativeToolTip": "Assets\\DensityTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T07:18:45.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
